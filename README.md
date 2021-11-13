@@ -4,12 +4,11 @@
 > This Work Day Planner was built with resposive desgin. Every element on this page is resposive when scaled down to smaller size screens. 
 This was made using bootstrap and dayjs For interactive timing dates and time. Below are two screenshots from different screen sizes.
 
-![Desktop]()
-![Mobile]()
+![Desktop](./assets/images/SK_WorkDayScheduler.jpg)
 
  ## Getting Started:
 
-The page is live at .
+The page is live at https://stevekoutsodontis.github.io/Work-Day-Scheduler/.
 
  ## Prerequisites:
 
