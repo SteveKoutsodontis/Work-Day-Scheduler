@@ -17,7 +17,7 @@ If you want to edit this web page you must have a Github account, and have also 
 
 - Create a Github account here: [Github](https://github.com/)
 - Download Visual Studio here: [Visual Studio](https://code.visualstudio.com/download/)
-- Repository link: [Quiz Repository]()
+- Repository link: [Planner Repository](https://github.com/SteveKoutsodontis/Work-Day-Scheduler)
 
  ### Authors:
 
