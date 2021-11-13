@@ -18,24 +18,97 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./Develop/assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <div id="displayMoment"></div>
+      <p class="lead">Set your schedule with ease.</p>
       <p id="currentDay" class="lead"></p>
+      <p id="currentTime" class="lead"></p>
     </header>
     <div class="container">
-      <div id="displayMoment"></div>
-      <!-- Timeblocks go here -->
+    <div id="row1" class="row time-block" data-time="6">
+      <div class="col-1 hour">6AM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
     </div>
+    <div id="row2" class="row time-block" data-time="7">
+      <div class="col-1 hour">7AM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row3" class="row time-block" data-time="8">
+      <div class="col-1 hour">8AM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row4" class="row time-block" data-time="9">
+      <div class="col-1 hour">9AM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row5" class="row time-block" data-time="10">
+      <div class="col-1 hour">10AM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row6" class="row time-block" data-time="11">
+      <div class="col-1 hour">11AM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row7" class="row time-block" data-time="12">
+      <div class="col-1 hour">12PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row8" class="row time-block" data-time="13">
+      <div class="col-1 hour">1PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row9" class="row time-block" data-time="14">
+      <div class="col-1 hour">2PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row10" class="row time-block" data-time="15">
+      <div class="col-1 hour">3PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row11" class="row time-block" data-time="16">
+      <div class="col-1 hour">4PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row12" class="row time-block" data-time="17">
+      <div class="col-1 hour">5PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row13" class="row time-block" data-time="18">
+      <div class="col-1 hour">6PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row14" class="row time-block" data-time="19">
+      <div class="col-1 hour">7PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+    <div id="row15" class="row time-block" data-time="20">
+      <div class="col-1 hour">8PM</div>
+      <textarea class="col-10 description"></textarea>
+      <button class="btn saveBtn col-1">SAVE</button>
+    </div>
+  </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
+    <script src="./Develop/assets/js/script.js"></script>
   </body>
 </html>
